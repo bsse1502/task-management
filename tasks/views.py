@@ -11,3 +11,8 @@ def contact(request):
 
 def show_task(request):
     return HttpResponse("welcome to our task page!")
+
+def show_specific_task(request,id):
+    print("ID: ",id)
+    print("ID Type: ",type(id))
+    return HttpResponse(f"Welcome to my specific task! {id}")
