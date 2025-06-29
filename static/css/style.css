@@ -1,0 +1,9 @@
+.lal-bg{
+    background-color: red;
+    color: rgb(25, 180, 141);
+}
+.img-size{
+    width: 200px;
+    height: 200px;
+    border: 1px solid yellow;
+}
